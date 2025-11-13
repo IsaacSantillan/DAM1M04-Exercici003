@@ -50,7 +50,11 @@ a {
     justify-content: space-between;
     align-items: center;
 }
-
+.logo-group {
+    display: flex;
+    align-items: center; /* centra verticalmente la imagen y el texto */
+    gap: 8px; 
+}
 .logo {
     font-size: 18px;
     font-weight: 600;
